@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components{
+  .border-primary-brown{
+    border-color:#462b34 ;
+  }
+  .bg-custom-violet{
+    background-color:#d4b6ec ;
+  }
+  .bg-custom-green{
+    background-color: #b6eccc;
+  }
+  .bg-primary-brown{
+    background-color: #462b34;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
