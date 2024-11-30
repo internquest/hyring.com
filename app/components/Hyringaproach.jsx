@@ -7,11 +7,9 @@ const Hyringaproach = () => {
     const [dragStartY, setDragStartY] = useState(0);
     const handleMouseDown = (e) => {
         setIsDragging(true);
-        console.log(e.clientY);
-        
         setDragStartY(e.clientY - positionY);
       };
-    console.log(dragStartY);
+    // console.log(dragStartY);
     
       const handleMouseMove = (e) => {
         if (!isDragging) return;
@@ -311,8 +309,276 @@ const Hyringaproach = () => {
                     </div>
                 </div>
             </div>
+    </div>
+    <div class="flex md:hidden mt-20">
+    <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] ml-5 mr-5 flex md:hidden flex-col flex-wrap m-0 p-0">
+            <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] bg-[#fafafa] mb-4 rounded-xl p-4 m-0">
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row m-0 p-0">
+                    <h1 class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] text-[20px] font-bold m-0 pb-4  p-0">Traditional C2H approach 😐</h1>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Contractors</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Concealed salary and commission information</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">80% to 150% of fees per candidate per month</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Compensation on an hourly basis</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Involvement in multiple clients and projects</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Utilization of third-party applications</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Payroll partners</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Remote and on-site work</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Limited or no health insurance coverage</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Basic or personal laptop provision</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">60-day delayed payment</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Recognised as contractor in LinkedIn</p>
+                </div>
+            </div>
+            <div class="box-border border-[0px] border-[solid] bg-primary-brown text-[#FAFAFA] border-[rgb(229,231,235)] rounded-xl p-4 m-0">
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center gap-4 pb-4 m-0 p-0">
+                    <svg width="50" height="49" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                        <g clip-path="url(#a)" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0">
+                            <path d="M30.553 30.384a8.274 8.274 0 0 0 .021-11.752c-3.259-3.25-8.552-3.257-11.823-.016a8.274 8.274 0 0 0-.022 11.752c3.26 3.25 8.553 3.257 11.824.016Z" fill="#EAA24B" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path d="M37.146 24.5c0 2.986-1.066 5.727-2.839 7.87a.775.775 0 0 0 .05 1.044l7.512 7.466c.32.318.84.3 1.14-.033 4-4.434 6.397-10.325 6.287-16.775-.23-13.46-11.461-24.26-25.003-24.07C10.843.192 0 11.086 0 24.5c0 6.29 2.385 12.024 6.305 16.363.298.33.818.34 1.134.026l7.512-7.466a.773.773 0 0 0 .051-1.042 12.32 12.32 0 0 1-2.843-8.243c.185-6.498 5.459-11.796 11.992-12.05 7.116-.275 12.995 5.4 12.995 12.412Z" fill="#EAA24B" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path d="M30.05 35.695a12.465 12.465 0 0 1-3.22 1.034.782.782 0 0 0-.56.417l-.442.882a.768.768 0 0 0-.054.555l1.587 5.68a.335.335 0 0 1-.107.348l-2.385 2.031a.335.335 0 0 1-.221.082.335.335 0 0 1-.222-.082l-2.385-2.031a.338.338 0 0 1-.107-.348l1.587-5.68a.777.777 0 0 0-.053-.555l-.443-.88a.778.778 0 0 0-.559-.417 12.448 12.448 0 0 1-3.21-1.03.792.792 0 0 0-.897.148l-7.734 7.686a.776.776 0 0 0 .115 1.195A24.63 24.63 0 0 0 24.648 49a24.63 24.63 0 0 0 13.917-4.278.777.777 0 0 0 .114-1.194l-7.73-7.686a.795.795 0 0 0-.9-.147Z" fill="#EAA24B" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path d="M70.853 26.208H61.67v9.252h-4.165V13.568h4.165v8.97h9.183v-8.97h4.165V35.46h-4.165v-9.252ZM90.038 19.088h3.787l-6.627 19.289a8.141 8.141 0 0 1-.71 1.52 3.792 3.792 0 0 1-.93 1.05c-.357.272-.79.47-1.295.597-.505.126-1.094.188-1.767.188h-2.43v-3.23h2.967l.757-2.285-5.9-17.127h4.008l2.87 8.637 1.073 4.13h.19l1.135-4.13 2.872-8.64ZM96.476 35.46V19.088h4.04v3.387h.157c.105-.438.267-.862.489-1.27.221-.408.51-.769.867-1.083a4.142 4.142 0 0 1 1.279-.752c.494-.188 1.067-.282 1.719-.282h.883v3.795h-1.262c-1.367 0-2.397.199-3.092.596-.694.398-1.04 1.045-1.04 1.945V35.46h-4.04ZM110.894 16.705c-.84 0-1.446-.188-1.813-.564-.368-.376-.552-.857-.552-1.443v-.628c0-.585.184-1.066.552-1.442.367-.376.973-.565 1.813-.565.822 0 1.42.189 1.8.565.378.376.568.857.568 1.442v.627c0 .585-.19 1.066-.568 1.442-.379.378-.978.566-1.8.566Zm-2.019 2.383h4.04V35.46h-4.04V19.088ZM117.583 35.46V19.088h4.04v2.729h.157a5.228 5.228 0 0 1 1.595-2.21c.726-.597 1.729-.895 3.013-.895 1.705 0 3.008.553 3.913 1.663.905 1.108 1.357 2.686 1.357 4.735v10.35h-4.04v-9.942c0-1.17-.211-2.05-.63-2.635-.422-.585-1.116-.878-2.084-.878-.421 0-.826.059-1.215.172a3.405 3.405 0 0 0-1.041.502c-.305.22-.552.492-.741.817-.189.324-.284.706-.284 1.144v10.82h-4.04ZM151 36.84c0 .857-.154 1.615-.457 2.275-.305.658-.805 1.208-1.5 1.646-.694.439-1.588.774-2.681 1.005-1.094.229-2.429.344-4.008.344-1.388 0-2.567-.089-3.534-.266-.968-.178-1.762-.43-2.383-.752-.622-.325-1.068-.728-1.341-1.209a3.244 3.244 0 0 1-.411-1.63c0-.921.257-1.636.773-2.15.516-.512 1.236-.84 2.162-.987v-.345c-.673-.166-1.194-.496-1.562-.99-.368-.491-.551-1.073-.551-1.742 0-.419.083-.79.251-1.114.168-.325.395-.602.679-.832.283-.231.605-.425.962-.58a5.876 5.876 0 0 1 1.135-.363v-.126c-1.01-.46-1.762-1.096-2.256-1.91-.495-.815-.741-1.766-.741-2.852 0-1.671.578-3.013 1.735-4.026s2.851-1.52 5.081-1.52c.505 0 1.005.031 1.499.093.495.063.952.167 1.373.314v-.534c0-1.588.778-2.383 2.335-2.383h2.556v3.074h-3.502v.44c.862.48 1.503 1.109 1.924 1.88.422.774.632 1.663.632 2.666 0 1.652-.573 2.979-1.719 3.983-1.146 1.004-2.845 1.505-5.097 1.505-.967 0-1.81-.095-2.524-.283-.316.148-.589.341-.821.58-.232.242-.346.54-.346.895 0 .816.716 1.222 2.145 1.222h4.419c2.019 0 3.486.414 4.402 1.239.914.825 1.371 1.97 1.371 3.433Zm-3.786.47c0-.523-.211-.93-.631-1.222-.421-.293-1.146-.438-2.177-.438h-5.617c-.567.418-.851.983-.851 1.694 0 .627.262 1.118.789 1.475.525.354 1.419.532 2.681.532h2.019c1.325 0 2.287-.169 2.887-.502.6-.335.9-.848.9-1.538Zm-4.86-10.317c1.978 0 2.966-.832 2.966-2.495v-.53c0-1.663-.989-2.495-2.966-2.495-1.978 0-2.967.832-2.967 2.495v.53c0 1.663.989 2.495 2.967 2.495Z" fill="#462B34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </g>
+                        <defs class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0">
+                            <clippath id="a" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0">
+                                <path fill="#fff" d="M0 0h151v49H0z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            </clippath>
+                        </defs>
+                    </svg>
+                    <h1 class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] text-[20px] font-bold m-0  p-0">Hyring Approach 😎</h1>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Employees</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Transparent salary information for both parties</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Flat fixed commissions ranging from 20% to 40%</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Monthly compensation</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Engagement with a single client only</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Sophisticated mobile and web app</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Comprehensive employee, payroll, benefits, and security partnership</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Fully remote</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">No-compromise health insurance for employees, spouses, children, and parents</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">High-config Apple or equivalent Windows laptop</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Monthly payments</p>
+                </div>
+                <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row items-center pl-2 pr-2 pb-2 pt-2 m-0 p-0">
+                    <div class="scale-[.6]">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="none" viewBox="0 0 34 34" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
+                            <path fill="#D8D8D8" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                            <path stroke="#462B34" d="M11.553 22.72a19.625 19.625 0 015.687 10.742 19.46 19.46 0 015.306-10.935 19.46 19.46 0 0110.742-5.688c-3.966-.546-7.8-2.329-10.936-5.305-3.135-2.977-5.001-6.798-5.687-10.742a19.46 19.46 0 01-5.306 10.935A19.46 19.46 0 01.617 17.415c4.018.546 7.85 2.277 10.936 5.305z" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
+                        </svg>
+                    </div>
+                    <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-4 font-[var(--font-whyte-regular)] text-[15px] p-0">Recognised as employee of the contracted company in LinkedIn</p>
+                </div>
+            </div>
         </div>
         </div>
+</div>
   )
 }
 

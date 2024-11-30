@@ -16,11 +16,12 @@ const SliderIndiv = () => {
                             <path d="M16.758 16.63a16.017 16.017 0 0 0-3.6 5.814 16.132 16.132 0 0 0-3.796-5.682 15.618 15.618 0 0 0-5.797-3.606A16.018 16.018 0 0 0 9.23 9.361a16.015 16.015 0 0 0 3.597-5.803 15.683 15.683 0 0 0 3.807 5.678 16.486 16.486 0 0 0 5.814 3.588 16.017 16.017 0 0 0-5.689 3.806Z" stroke="#462B34" stroke-width="1.691" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0"></path>
                         </svg>
                     </div>
-                    <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] mt-3 font-[var(--font-whyte-regular)] text-[1.875rem] leading-9 m-0 p-0">Flagship Laptop Benefits</div>
-                    <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] mt-3 font-[var(--font-whyte-light)] text-[1.125rem] leading-7 m-0 p-0">MacBook for most employees post probationary period</div>
+                    <div class="text-xl xs:text-2xl  lg:text-3xl mt-3 
+">Flagship Laptop Benefits</div>
+                    <div class='text-xs  xs:text-base  md:text-lg font-primaryLight mt-3 '>MacBook for most employees post probationary period</div>
                 </div>
                 <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] [flex-basis:40%] m-0 p-0">
-                    <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] relative flex translate-x-[var(--tw-translate-x)] translate-y-[var(--tw-translate-y)] rotate-[var(--tw-rotate)] skew-x-[var(--tw-skew-x)] skew-y-[var(--tw-skew-y)] scale-x-[var(--tw-scale-x)] scale-y-[var(--tw-scale-y)] items-center justify-center m-0 p-0">
+                    <div class="relative flex items-center  justify-center scale-[0.35] sm:scale-[0.45] lg:scale-[0.6]">
                         <svg width="283" height="265" fill="none"
                             xmlns="http://www.w3.org/2000/svg" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle absolute z-10 m-0 p-0">
                             <g opacity="0.2" stroke="#462B34" stroke-width="0.5" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0">

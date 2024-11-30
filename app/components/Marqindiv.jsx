@@ -4,7 +4,7 @@ const Marqindiv = () => {
   return (
  <div>
       <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] w-[fit-content] pb-2 pt-2 m-0 p-0">
-            <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] relative ml-0 h-[71px] w-[fit-content] sm:scale-[.8]  cursor-pointer m-0 p-0">
+            <div class="relative  h-[71px] w-fit cursor-pointer -ml-[55px]  scale-[0.65] sm:-ml-0 sm:scale-[0.8] ">
                 <div class="box-border z-[1] bg-white  border-[solid] border-[rgb(229,231,235)] relative flex h-[64px] items-center justify-center rounded-[12px] border-2 m-0 p-0">
                     <p class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 pl-[25px] pr-[25px] font-[var(--font-whyte-regular)] text-[1rem] leading-6 p-0">Flexible 4/5-Day Work Week</p>
                     <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] absolute -left-[20px] -top-[20px] m-0 p-0">
