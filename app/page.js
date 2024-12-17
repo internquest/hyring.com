@@ -1,13 +1,46 @@
+'use client'
 import Image from "next/image";
 import bglottie from '@/public/bg-lottie.png';
 import Stickycard from "./components/Stickycard";
 import Marqueecards from "./components/Marqueecards";
 import Hyringaproach from "./components/Hyringaproach";
+import { useEffect, useState } from "react";
 // import Stickycard from "./components/Stickycard";
 
 export default function Home() {
+  const [isDragging, setIsDragging] = useState(false);
+  const [positionY, setPositionY] = useState(30);
+  const [dragStartY, setDragStartY] = useState(0);
+  const handleMouseDown = (e) => {
+      setIsDragging(true);
+      setDragStartY(e.clientY - positionY);
+    };
+  // console.log(dragStartY);
+  
+    const handleMouseMove = (e) => {
+      if (!isDragging) return;
+      
+      // Calculate new position
+      const newPosition = e.clientY - dragStartY;
+      
+      // Clamp the position between 30 and 744
+      const clampedPosition = Math.min(Math.max(newPosition, 30), 744);
+      setPositionY(clampedPosition);
+    };
+  
+    const handleMouseUp = () => {
+      setIsDragging(false);
+    };
+  // console.log(positionY,isDragging);
+  useEffect(() => { 
+    document.addEventListener("mouseup", handleMouseUp);
+    return () => {
+      document.removeEventListener("mouseup", handleMouseUp);
+    };
+  },[])
+  
   return (
-    <>
+    <div onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
   <div className="relative overflow-hidden">
     <div className="w-screen justify-center flex items-center min-h-[540px]  h-screen  overflow-hidden !cursor-default" id="whyIndia">
     <div className="max-h-[600px] flex flex-col py-4 gap-0 sm:gap-0 justify-center items-center ">
@@ -55,9 +88,9 @@ export default function Home() {
   <Stickycard topval={1.5}/>
   <Stickycard topval={3} zval={20}/>
   </div>
-  <Hyringaproach/>
-
+  <Hyringaproach onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} positionY={positionY}/>
+<div className="h-screen w-full"></div>
   {/* <Marqueecards/> */}
-  </>
+  </div>
   );
 }

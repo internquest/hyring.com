@@ -3,7 +3,7 @@ import React from 'react'
 const SliderIndiv = () => {
   return (
     <div class="h-[238px]  w-fit  cursor-pointer m-auto  relative  ">
-    <div class="h-[230px] w-[310px]   xxs:w-[325px] xs:w-[380px] sm:w-[480px] md:w-[580px] lg:w-[700px] xl:w-[950px] border-2 bg-custom-green rounded-[16px] border-primary-brown flex justify items-center relative z-[1] ">
+    <div class="h-[230px] w-[310px]   xxs:w-[325px] xs:w-[380px] sm:w-[480px] md:!w-[580px] lg:!w-[700px] xl:!w-[950px] border-2 bg-custom-green rounded-[16px] border-primary-brown flex justify items-center relative z-[1] ">
             <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex w-full items-center justify-between gap-4 p-5 m-0">
                 <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] [flex-basis:80%] m-0 p-0">
                     <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] relative flex m-0 p-0">

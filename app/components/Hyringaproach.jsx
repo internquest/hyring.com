@@ -1,36 +1,12 @@
 'use client'
 import React, { useState } from 'react'
 
-const Hyringaproach = () => {
-    const [isDragging, setIsDragging] = useState(false);
-    const [positionY, setPositionY] = useState(30);
-    const [dragStartY, setDragStartY] = useState(0);
-    const handleMouseDown = (e) => {
-        setIsDragging(true);
-        setDragStartY(e.clientY - positionY);
-      };
-    // console.log(dragStartY);
-    
-      const handleMouseMove = (e) => {
-        if (!isDragging) return;
-        
-        // Calculate new position
-        const newPosition = e.clientY - dragStartY;
-        
-        // Clamp the position between 30 and 744
-        const clampedPosition = Math.min(Math.max(newPosition, 30), 744);
-        setPositionY(clampedPosition);
-      };
-    
-      const handleMouseUp = () => {
-        setIsDragging(false);
-      };
-    // console.log(positionY);
-    
+const Hyringaproach = ({onMouseDown,positionY,onMouseUp}) => {
+   
   return (
-<div>
+<div >
     <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] mt-28 md:flex hidden m-0 p-0">
-            <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] ml-auto mr-auto mb-0 mt-0 max-w-[1800px] m-0 p-0">
+            <div  class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] ml-auto mr-auto mb-0 mt-0 max-w-[1800px] m-0 p-0">
                 <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] relative ml-5 mr-5 h-[750px] m-0 p-0">
                     <div class="box-border  border-[solid] border-[rgb(229,231,235)] flex h-[93vh] md:h-[780px] flex-col rounded-bl-xl rounded-br-xl rounded-tl-2xl rounded-tr-2xl bg-primary-brown border pb-6 pt-8 m-0 p-0">
                         <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] pl-20 pr-20 pt-1 m-0 p-0 pb-4">
@@ -277,10 +253,13 @@ const Hyringaproach = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp} draggable="false" class="box-border hover:cursor-grab active:cursor-grabbing border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0 select-none">
-                            <div  onMouseDown={handleMouseDown} class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] -mt-[48px] flex w-full translate-x-[var(--tw-translate-x)] translate-y-[var(--tw-translate-y)] rotate-[var(--tw-rotate)] skew-x-[var(--tw-skew-x)] skew-y-[var(--tw-skew-y)] scale-x-[var(--tw-scale-x)] scale-y-[var(--tw-scale-y)] animate-[1s_ease_0s_infinite_normal_none_running_bouncer] flex-row items-center justify-center m-0 p-0">
+
+
+
+                        
+                        <div onMouseDown={onMouseDown}
+       draggable="false" class="box-border hover:cursor-grab active:cursor-grabbing border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0 select-none">
+                            <div    class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] -mt-[48px] flex w-full translate-x-[var(--tw-translate-x)] translate-y-[var(--tw-translate-y)] rotate-[var(--tw-rotate)] skew-x-[var(--tw-skew-x)] skew-y-[var(--tw-skew-y)] scale-x-[var(--tw-scale-x)] scale-y-[var(--tw-scale-y)] animate-[1s_ease_0s_infinite_normal_none_running_bouncer] flex-row items-center justify-center m-0 p-0">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="none" viewBox="0 0 151 151" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] block align-middle m-0 p-0">
                                     <g filter="url(#filter0_d_3569_4984)" class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] m-0 p-0">
@@ -310,7 +289,7 @@ const Hyringaproach = () => {
                 </div>
             </div>
     </div>
-    <div class="flex md:hidden mt-20">
+    <div  class="flex md:hidden mt-20">
     <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] ml-5 mr-5 flex md:hidden flex-col flex-wrap m-0 p-0">
             <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] bg-[#fafafa] mb-4 rounded-xl p-4 m-0">
                 <div class="box-border border-[0px] border-[solid] border-[rgb(229,231,235)] flex flex-row m-0 p-0">
