@@ -451,13 +451,14 @@ export default function Home() {
     </div>
   </div>
   <div class="relative min-h-[90vh] mt-20 max-w-[1800px] mx-auto my-0">
-  <Stickycard title="Employee Retention" cards={cards} marqCards={marqCards} topval={0} no={1}/>
-  <Stickycard title="Seamless Portal" cards={cards1} marqCards={marqCards} topval={1.5} no={2}/>
-  <Stickycard title={'compliance Covered'} cards={cards2} marqCards={marqCards2} no={3} topval={3} zval={20}/>
+  <Stickycard title="Employee Retention" borderb={false} endgate={false} cards={cards} marqCards={marqCards} topval={0} no={1}/>
+  <Stickycard title="Seamless Portal" borderb={false} endgate={false} cards={cards1} marqCards={marqCards} topval={1.5} no={2}/>
+  <Stickycard title={'compliance Covered'} borderb={true} endgate={true} cards={cards2} marqCards={marqCards2} no={3} topval={3} zval={20}/>
+
   </div>
 
 
-
+{/* <div className="w-full h-screen bg-[#FBF5EF]"></div> */}
 
   <Hyringaproach onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} positionY={positionY}/>
 <div className="h-screen w-full"></div>
