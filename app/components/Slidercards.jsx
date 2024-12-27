@@ -8,7 +8,7 @@ import SliderIndiv from './SliderIndiv';
 
 const Slidercards = ({cards}) => {
     var settings = {
-        
+        arrows:false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,

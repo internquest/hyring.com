@@ -5,7 +5,7 @@ const Marqueecards = ({marqCards}) => {
 
   return (
     
-    <Marquee className='py-14'>
+    <Marquee className='py-3 xl:py-14'>
 
 
       {
