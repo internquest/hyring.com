@@ -21,11 +21,39 @@
   .bg-custom-violet{
     background-color:#d4b6ec ;
   }
+  .fill-custom-violet{
+    fill:#d4b6ec ;
+  }
+  .bg-custom-blue{
+    @apply bg-[#b9c8ff]
+  }
+  .fill-custom-blue{
+    @apply fill-[#b9c8ff]
+  }
+  .bg-custom-red{
+    @apply bg-[#fcb2b2]
+  }
+  .fill-custom-red{
+    @apply fill-[#fcb2b2]
+  }
+  
   .bg-custom-green{
     background-color: #b6eccc;
   }
+  .fill-custom-green{
+    fill: #b6eccc;
+  }
   .bg-primary-brown{
     background-color: #462b34;
+  }
+  .fill-primary-brown{
+    fill: #462b34;
+  }
+  .bg-custom-yellow{
+    @apply bg-[#fff5b7]
+  }
+  .fill-custom-yellow{
+    @apply fill-[#fff5b7]
   }
 }
 
@@ -33,4 +61,96 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+.text-custom-sandal {
+  --tw-text-opacity: 1;
+  color: rgb(255 198 130 / var(--tw-text-opacity));
+}
+
+.border-custom-sandal {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 198 130 / var(--tw-border-opacity));
+}
+
+
+
+.animate-glow:after {
+  animation: slide 2s infinite;
+  animation-direction: reverse;
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2), hsla(0, 0%, 100%, .579) 25%, hsla(0, 0%, 100%, .2) 50%, hsla(0, 0%, 100%, .579) 75%, hsla(0, 0%, 100%, .2));
+  content: "";
+  height: 50%;
+  left: 10;
+  position: absolute;
+  top: 0;
+  /* transform: translateX(50%); */
+  transform: translate(100%, -50%) rotate(45deg);
+  width: 120%;
+  z-index: 5;
+}
+.button-hover+div {
+  left: 0;
+  top: 0;
+}
+.button-hover:hover+div {
+  left: 4px;
+  top: 4px;
+}
+.animate-glow {
+  overflow: hidden;
+}
+
+.fill-custom-sandal {
+  fill: #ffc682;
+}
+.move-left-and-right {
+  animation: moveLeftAndRight 1s ease-in infinite alternate;
+}
+
+@keyframes moveLeftAndRight {
+  0% {
+    transform: translateX(0);
+}
+
+100% {
+    transform: translateX(7px);
+}
+}
+@keyframes scaleIn{
+  0% {
+    opacity: 1;
+    transform: scale(1);
+}
+
+50% {
+    opacity: 0;
+    transform: scale(0);
+}
+100% {
+    opacity: 1;
+    transform: scale(1);
+}
+}
+@keyframes scaleOut {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+}
+50% {
+    opacity: 1;
+    transform: scale(1);
+}
+100% {
+    opacity: 0;
+    transform: scale(0);
+}  
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(-100%) rotate(45deg);
+}
+100% {
+    transform: translate(100%) rotate(45deg);
+}
 }
